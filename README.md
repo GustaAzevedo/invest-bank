@@ -19,7 +19,7 @@
 
 <p>Para ativar o projeto, basta dar o comando "php artisan serve" e o projeto estará funcionando na porta http://127.0.0.1:8000</p>.
 
-<img src="https://images-na.ssl-images-amazon.com/images/I/71UKXeFi7%2BL._AC_SY741_.jpg" width="300px">
+<img src="./img/create" width="300px">
 
 
 
