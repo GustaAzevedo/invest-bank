@@ -15,7 +15,11 @@
 
 ### Como Rodar o Projeto
 
-<p align="center">Para configurar o projeto para rodar na sua máquina local basta dar um git pull. Após ter todos os arquivos no teu computador, entre no arquivo .env e configure o acesso para conectar com o seu banco de dados. Ative o mysql e coloque qual em qual porta ele está ativado no DB_PORT dentro do arquivo .env. Exeute o comando php artisan migrate para criar o banco de dados chamado investbank.</p>
+<p>Para configurar o projeto para rodar na sua máquina local basta dar um git pull. Após ter todos os arquivos no teu computador, entre no arquivo .env e configure o acesso para conectar com o seu banco de dados. Ative o mysql e coloque qual em qual porta ele está ativado no DB_PORT dentro do arquivo .env. Exeute o comando "php artisan migrate" para criar o banco de dados chamado investbank.</p>
+
+<p>Para ativar o projeto, basta dar o comando "php artisan serve" e o projeto estará funcionando na porta http://127.0.0.1:8000</p>.
+
+<img src="https://images-na.ssl-images-amazon.com/images/I/71UKXeFi7%2BL._AC_SY741_.jpg" width="300px">
 
 
 
