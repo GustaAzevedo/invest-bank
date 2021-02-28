@@ -1,3 +1,5 @@
+# Invest Bank
+
 ## Sobre o Projeto
 
 ### Tecnologias Utilizadas
@@ -7,7 +9,14 @@
     <li>Blade</li>
     <li>Laravel</li>
     <li>Bootstrap</li>
+    <li>Javascript</li>
+    <li>MySQL</li>
 </ul>
+
+### Como Rodar o Projeto
+
+<p align="center">Para configurar o projeto para rodar na sua máquina local basta dar um git pull. Após ter todos os arquivos no teu computador, entre no arquivo .env e configure o acesso para conectar com o seu banco de dados. Ative o mysql e coloque qual em qual porta ele está ativado no DB_PORT dentro do arquivo .env. Exeute o comando php artisan migrate para criar o banco de dados chamado investbank.</p>
+
 
 
 
