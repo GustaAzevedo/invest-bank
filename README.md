@@ -15,12 +15,30 @@
 
 ### Como Rodar o Projeto
 
-<p>Para configurar o projeto para rodar na sua máquina local basta dar um git pull. Após ter todos os arquivos no teu computador, entre no arquivo .env e configure o acesso para conectar com o seu banco de dados. Ative o mysql e coloque qual em qual porta ele está ativado no DB_PORT dentro do arquivo .env. Exeute o comando "php artisan migrate" para criar o banco de dados chamado investbank.</p>
+<p>O que é necessário ter instalado na máquina?</p>
+<ul>
+    <li>Apache</li>
+    <li>MySql</li>
+    <li>PHP 7.2.5 ou superior (verifique se nas variáveis ve ambiênte se tem o caminho para o php)</li>
+    <li>Composer versao 2.0 ou superior</li>
+</ul>
+
+<p>Para configurar o projeto para rodar na sua máquina local basta dar um git pull.</p>
+<p>Após ter todos os arquivos no teu computador, entre no arquivo .env e configure o acesso para conectar com o seu banco de dados</p>
+<ul>
+    <li>DB_CONNECTION=mysql</li>
+    <li>Blade</li>
+    <li>DB_HOST=127.0.0.1</li>
+    <li>DB_PORT=3306</li>
+    <li>DB_DATABASE=investbank</li>
+    <li>DB_USERNAME=root</li>
+    <li>DB_PASSWORD=</li>
+</ul>
+<p>Ative o mysql (caso esteja utilizando o Xampp basta startar o mySQL), veja em que porta o seu MySQL está ativo e substitua o DB_PORT dentro do arquivo .env</p>
+
+<p>Dentro do projeto exeute o comando "php artisan migrate" para criar o banco de dados chamado investbank. Caso não funcione, crie um banco chamado investbank. Troque o nome DB_DATABASE=laravel por DB_DATABASE=investbank no arquivo .env</p>
 
 <p>Para ativar o projeto, basta dar o comando "php artisan serve" e o projeto estará funcionando na porta http://127.0.0.1:8000</p>.
-
-<img src="./img/create" width="300px">
-
 
 
 
