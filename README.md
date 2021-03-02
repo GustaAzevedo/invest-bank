@@ -19,7 +19,7 @@
 <ul>
     <li>Apache</li>
     <li>MySql</li>
-    <li>PHP 7.2.5 ou superior (verifique se nas variáveis ve ambiênte se tem o caminho para o php)</li>
+    <li>PHP 7.2.5 ou superior (verifique se nas variáveis de ambiênte se tem o caminho para o php)</li>
     <li>Composer versao 2.0 ou superior</li>
 </ul>
 
